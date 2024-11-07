@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 94%);
+}
+
+#centre {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background-color: hsl(0, 0%, 100%);
+    width: 550px;
+    padding: 30px;
+    height: 450px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.form {
+    display: flex;
+    color: hsl(0, 1%, 44%);
+    flex-direction: row;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+.for_day {
+    border-radius: 5px;
+    font-size: 10px;
+    width: 110px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 1px solid hsl(0, 2%, 79%);
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    border: none;
+    float: right;
+    margin-right: 40px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: -24px;
+    background-color: hsl(259, 100%, 65%);
+}.text{
+    font-size: 52px;
+    font-weight: bolder;
+}
+#years, #months, #days{color:  hsl(259, 100%, 65%);}
